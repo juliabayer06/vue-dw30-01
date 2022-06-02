@@ -1,5 +1,9 @@
 <script setup>
+<<<<<<< HEAD
 import HeaderComp from "./components/template/HeaderComp.vue";
+=======
+import HeaderComp from "@/components/template/HeaderComp.vue";
+>>>>>>> 1d1b377ba6e6aab96756a46ea0fe3d35b58fb5d8
 import RodapeComp from "./components/template/RodapeComp.vue";
 </script>
 
@@ -35,7 +39,12 @@ footer {
 }
 main {
   height: 80%;
+<<<<<<< HEAD
   background-color: rgba(140, 0, 255, 0.156);
   color: rgba(45, 1, 81, 0.794);
+=======
+  background-color: lightskyblue;
+  color: white;
+>>>>>>> 1d1b377ba6e6aab96756a46ea0fe3d35b58fb5d8
 }
 </style>
