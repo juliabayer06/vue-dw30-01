@@ -1,15 +1,13 @@
 <script setup>
-<<<<<<< HEAD
 import HeaderComp from "./components/template/HeaderComp.vue";
-=======
-import HeaderComp from "@/components/template/HeaderComp.vue";
->>>>>>> 1d1b377ba6e6aab96756a46ea0fe3d35b58fb5d8
 import RodapeComp from "./components/template/RodapeComp.vue";
 </script>
 
 <template>
   <HeaderComp />
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
   <RodapeComp />
 </template>
 
@@ -19,32 +17,31 @@ import RodapeComp from "./components/template/RodapeComp.vue";
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  /*padding: 2rem;*/
+  padding: 2rem;
   height: 100vh;
 
   font-weight: normal;
 }
 header {
-  background-color: rgba(140, 0, 255, 0.75);
-  color: rgb(240, 235, 244);
-  height: 10%;
+  background-color: rgb(80, 20, 110);
+  color: rgba(158, 210, 243, 0.945);
+  height: 15%;
   font-size: 1.3rem;
   display: flex;
 }
 footer {
-  background-color: rgba(140, 0, 255, 0.75);
-  color: rgb(240, 235, 244);
-  height: 10%;
+  background-color: rgb(80, 20, 110);
+  color: rgba(158, 210, 243, 0.945);
+  height: 5%;
   font-size: 1.3rem;
 }
 main {
   height: 80%;
-<<<<<<< HEAD
-  background-color: rgba(140, 0, 255, 0.156);
-  color: rgba(45, 1, 81, 0.794);
-=======
-  background-color: lightskyblue;
-  color: white;
->>>>>>> 1d1b377ba6e6aab96756a46ea0fe3d35b58fb5d8
+  background-color: rgba(80, 20, 110, 0.474);
+  color: rgba(0, 0, 0, 0.649);
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 </style>
